@@ -27,6 +27,7 @@ I wrote a Python script to load the model and make predictions on an input image
 
 ### Run the Python script
 To test the model, I ran the Python script on an image (test1.jpg) that I wanted to classify, and it gave me the predicted class along with the confidence score.
+This code loads a pre-trained model and uses it to classify an uploaded image as either "Robot" or "Human". It first uploads the model, labels, and image files. Then, it processes the image by resizing and normalizing it, before making a prediction using the model. The predicted class (either "Robot" or "Human") and the confidence score are displayed. The code also handles errors in case any of the files are missing or incorrectly formatted.
 
 ### summary 
 In this task, I created a model to distinguish between Robots and Humans. I used Teachable Machine for training, exported the model in TensorFlow format, and then created a Python script to load the model and predict whether a given image is of a robot or a human.
